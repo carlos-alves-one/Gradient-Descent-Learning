@@ -72,5 +72,8 @@ y = X(:,2);
 % Calculate the predicted output for each example
 predictions = X * weights + biases;
 
+% Create a scatter plot of the input data
+scatter(x, y);
+
 
 

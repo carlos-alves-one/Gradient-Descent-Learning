@@ -27,4 +27,8 @@ for epoch = 1:numEpochs
         % Calculate the error between the predicted output and the correct output
         error = output - target;
 
+        % Calculate the gradient of the error with respect to the weights and biases
+        gradientW = error * input;
+        gradientB = error;
+
         

@@ -17,6 +17,9 @@ numExamples = 1000;
 % Generate random input data
 X = randn(numExamples, numInputs);
 
+% Generate random output data
+y = randn(numExamples, numOutputs);
+
 % Initialize the weights and biases of the network
 weights = randn(numInputs, numOutputs);
 biases = randn(1, numOutputs);

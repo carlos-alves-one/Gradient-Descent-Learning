@@ -60,3 +60,9 @@ for epoch = 1:numEpochs
     end
 
 end
+
+% >> Prepare data for plotting :
+
+% Extract the first input dimension and use it as the x-axis data
+x = X(:,1);
+

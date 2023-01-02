@@ -7,6 +7,10 @@
 numEpochs = 100;
 learningRate = 0.1;
 
+% Define the number of input and output dimensions
+numInputs = 2;
+numOutputs = 1;
+
 % Initialize the weights and biases of the network
 weights = randn(numInputs, numOutputs);
 biases = randn(1, numOutputs);

@@ -66,3 +66,8 @@ end
 % Extract the first input dimension and use it as the x-axis data
 x = X(:,1);
 
+% Extract the second input dimension and use it as the y-axis data
+y = X(:,2);
+
+
+

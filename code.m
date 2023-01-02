@@ -69,5 +69,8 @@ x = X(:,1);
 % Extract the second input dimension and use it as the y-axis data
 y = X(:,2);
 
+% Calculate the predicted output for each example
+predictions = X * weights + biases;
+
 
 

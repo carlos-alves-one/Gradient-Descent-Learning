@@ -11,6 +11,12 @@ learningRate = 0.1;
 numInputs = 2;
 numOutputs = 1;
 
+% Define the number of examples to generate
+numExamples = 1000;
+
+% Generate random input data
+X = randn(numExamples, numInputs);
+
 % Initialize the weights and biases of the network
 weights = randn(numInputs, numOutputs);
 biases = randn(1, numOutputs);

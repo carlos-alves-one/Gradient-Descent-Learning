@@ -31,4 +31,10 @@ for epoch = 1:numEpochs
         gradientW = error * input;
         gradientB = error;
 
-        
+        % Update the weights and biases using the gradient and the learning rate
+        weights = weights - learningRate * gradientW;
+        biases = biases - learningRate * gradientB;
+
+    end
+
+end

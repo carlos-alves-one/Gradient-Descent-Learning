@@ -16,3 +16,7 @@ for epoch = 1:numEpochs
 
      % Loop over the training data
      for i = 1:numExamples
+
+          % Extract the input and output data for the current example
+          input = X(i,:);
+          target = y(i);

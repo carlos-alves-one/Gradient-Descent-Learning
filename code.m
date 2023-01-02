@@ -7,3 +7,7 @@
 numEpochs = 100;
 learningRate = 0.1;
 
+% Initialize the weights and biases of the network
+weights = randn(numInputs, numOutputs);
+biases = randn(1, numOutputs);
+

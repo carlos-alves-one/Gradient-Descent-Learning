@@ -3,9 +3,14 @@
 % Student...: cdeol003
 % Created...: 01/01/2023
 
-% Define the number of epochs (iterations) and the learning rate
-numEpochs = 100;
-learningRate = 0.1;
+% This code generates numExamples random input-output pairs, with numInputs dimensions 
+% for the input data and numOutputs dimensions for the output data. The input data is 
+% generated using the randn function, which generates random values from a normal distribution 
+% with mean 0 and standard deviation 1. The output data is generated using the same function.
+
+% Customize this code to generate input-output pairs in a specific way, depending on your needs. 
+% For example, you might want to generate input data from a specific distribution or 
+% generate output data based on a function of the input data.
 
 % Define the number of input and output dimensions
 numInputs = 2;
@@ -19,6 +24,10 @@ X = randn(numExamples, numInputs);
 
 % Generate random output data
 y = randn(numExamples, numOutputs);
+
+% Define the number of epochs (iterations) and the learning rate
+numEpochs = 100;
+learningRate = 0.1;
 
 % Initialize the weights and biases of the network
 weights = randn(numInputs, numOutputs);

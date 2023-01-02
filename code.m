@@ -24,4 +24,7 @@ for epoch = 1:numEpochs
         % Feed the input through the network to generate a predicted output
         output = input * weights + biases
 
+        % Calculate the error between the predicted output and the correct output
+        error = output - target;
+
         

@@ -75,5 +75,8 @@ predictions = X * weights + biases;
 % Create a scatter plot of the input data
 scatter(x, y);
 
+% Add a line plot of the predicted output
+hold on;
+plot(predictions);
 
 
